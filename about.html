@@ -15,14 +15,14 @@ header-img: "img/home-bg-o.jpg"
 <div class="zh post-container">
 
     <!--copied from markdown -->
-    <blockquote><p>冰冻三尺 非一日之寒，<br>
-    积土成山 非斯须之作</p></blockquote>
+    <blockquote><p>此情可待成追忆 只是当时已惘然，<br>
+    自强不息 厚德载物</p></blockquote>
 
-    <p>Hey，我是<strong>柏荧(BY)</strong>，一只iOS程序猿，现在厦门工作。</p>
+    <p>Hey，我是<strong>邱(BY)</strong>，现在成都学习。</p>
 
-    <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://jekyll.com.cn/">Jekyll</a> 搭建的 个人博客。我在GitHub主页<a href="https://github.com/qiubaiying">👉GitHub·BY</a> 与 简书主页<a href="https://http://www.jianshu.com/u/e71990ada2fd">👉BY</a>。</p>
+    <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://jekyll.com.cn/">Jekyll</a> 搭建的 个人博客。我在GitHub主页<a href="https://fengyeluojinmengweiting.github.io">👉GitHub·</a> 与 简书主页<a href="http://www.jianshu.com/u/8a5e2f349b7b">👉BY</a>。</p>
 
-    <p>工作、学习之余，我特别喜欢运动，跑步、健身和自由搏击都是我特别喜欢的运动。</p>
+    <p>学习之余，我特别喜欢reading and thinking。</p>
     
     <h5>Talks</h5>
 
@@ -30,19 +30,19 @@ header-img: "img/home-bg-o.jpg"
     <li><a href="https://github.com">GitHub</a></li>
     <li><a href="http://jekyll.com.cn/">jekyll</a></li>
     <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://qiubaiying.github.io">BY</a></li>    </ul>
+    <li><a href="https://fengyeluojinmengweiting.github.io">BY</a></li>    </ul>
 </div>
 
 <!-- English Version -->
 <div class="en post-container">
-    <blockquote><p>Yet another iOS Developer. <br>
+    <blockquote><p>    . <br>
     Yet another Life-long Student.</p></blockquote>
 
-    <p>Hi, I am <strong>BaiYing(柏荧)</strong>，you can call me <strong>BY</strong>. I'm an iOS Developer.I now working in Xiamen Supermo Intelligent Logistics Technology Co., Ltd.</p>
+    <p>Hi, I am <strong>qiu(秋)</strong>，you can call me <strong>BY</strong>. I'm an student.I now learning in chengdu Intelligent ., Ltd.</p>
 
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
+    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="https://fengyeluojinmengweiting.github.io">Github·BY</a>.</p>
     
-    <p>I am a sports enthusiast, I like fitness, running and tae kwon do, sports is my full of vitality.</p>
+    <p>I am a student, I like reading and thinking.</p>
 
     <h5>Talks</h5>
 
@@ -50,7 +50,7 @@ header-img: "img/home-bg-o.jpg"
     <li><a href="https://github.com">GitHub</a></li>
     <li><a href="http://jekyll.com.cn/">jekyll</a></li>
     <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://qiubaiying.github.io">BY</a></li>
+    <li><a href="https://fengyeluojinmengweiting.github.io">BY</a></li>
     </ul>
 </div>
 
@@ -60,10 +60,8 @@ header-img: "img/home-bg-o.jpg"
     var $zh = document.querySelector(".zh");
     var $en = document.querySelector(".en");
     var $select = document.querySelector("select");
-
     // bind hashchange event
     window.addEventListener('hashchange', _render);
-
     // handle render
     function _render(){
         var _hash = window.location.hash;
@@ -80,7 +78,6 @@ header-img: "img/home-bg-o.jpg"
             $en.style.display = "none";
         }
     }
-
     // handle select change
     function onLanChange(index){
         if(index == 0){
@@ -89,7 +86,6 @@ header-img: "img/home-bg-o.jpg"
             window.location.hash = "#en"
         }
     }
-
     // init
     _render();
 </script>
@@ -117,7 +113,6 @@ header-img: "img/home-bg-o.jpg"
 <script type="text/javascript">
     // dynamic User hacking by Hux
     var _user = '{{site.duoshuo_username}}';
-
     // duoshuo comment query.
     var duoshuoQuery = {short_name: _user };
     (function() {
@@ -148,7 +143,6 @@ header-img: "img/home-bg-o.jpg"
     var disqus_shortname = "{{site.disqus_username}}";
     var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
     var disqus_url = "{{site.url}}{{page.url}}";
-
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
